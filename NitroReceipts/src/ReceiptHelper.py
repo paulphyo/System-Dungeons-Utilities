@@ -185,5 +185,5 @@ def main():
     find_and_log_crystals(settings)
 
 
-if __name__ == "__main":
+if __name__ == "__main__":
     main()
