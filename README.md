@@ -11,9 +11,10 @@ It houses all the commands/tools coded for the Discord Community Server:
 
 ## Clickable Links
 
-<details>
+<details open>
     <summary>Miners</summary>
 
-- 📂[Open Folder](https://google.com)  
-**•** 📂[Open Folder](https://google.com)
+- 📂[Open Folder](miners/)  
+**•** 🖼️ [ReadMe.MD](miners/README.md)  
+**•** <img src="https://brandlogos.net/wp-content/uploads/2021/12/go_language-brandlogo.net_-768x768.png" height="30" width="30" /> [miners.go](miners/miners.go)
 </details>
