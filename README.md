@@ -5,7 +5,7 @@ This is z3nn13's private repository.
 
 It houses all the commands/tools coded for the Discord Community Server:
 
-<h4 align="center">The System: Dungeons</h4>
+<h4 align="center"><img src="https://imgur.com/Pl8KXhz" height=25px width=25px>&nbsp&nbspThe System: Dungeons</h4>
 
 ---
 
