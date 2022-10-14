@@ -12,8 +12,8 @@ It houses all the commands/tools coded for the Discord Community Server:
 ## Clickable Links
 
 <details>
-    <summary>Auction</summary>
+    <summary>Miners</summary>
 
-- 📂[Open Folder](Auto_Moderation/Anti_Phishing)  
-**•** 📂[Open Folder](Auto_Moderation/Anti_Phishing)
+- 📂[Open Folder](https://google.com)  
+**•** 📂[Open Folder](https://google.com)
 </details>
