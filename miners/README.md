@@ -21,5 +21,5 @@ $ Known Arguments
 
 ## 📸 | Previews
 
-![Command Preview 1](https://imgur.com/VCrFJKh)  
-![Command Preview 2](https://imgur.com/MeGJTRL)
+![Command Preview 1](https://i.ibb.co/mvbPKvG/miner-Preview2.png)  
+![Command Preview 2](https://i.ibb.co/njdwTp5/miner-Preview1.png)
