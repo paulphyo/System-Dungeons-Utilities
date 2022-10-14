@@ -6,7 +6,7 @@
 
 	Copyright (c): zen | ゼン#0008; 2021
 	License: MIT
-	Repository: https://github.com/z3nn13/custom-commands-yagpdb
+	Repository: https://github.com/z3nn13/System-Dungeons
 */}}
 
 

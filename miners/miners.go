@@ -1,9 +1,13 @@
 {{/* 
-    Trigger: \A(?:\+|<@!?204255221017214977>)\s*(?:miners?)(?: +|\z)
-    Trigger Type: Regex
+    Recommended Trigger: \A(?:\+|<@!?204255221017214977>)\s*(?:miners?)(?: +|\z)
+    Recommended Trigger Type: Regex
 
-    Credits: zen | ゼン#0008 (https://github.com/z3nn13)
-}}
+    Usage: +miners <server:Text> <gate:Text> <mob:Whole Number>
+
+  	Copyright (c): zen | ゼン#0008; 2021
+	  License: MIT
+	  Repository: https://github.com/z3nn13/System-Dungeons
+*/}}
 
 {{/* Configuration Starts */}}
 {{ $mineRole := 759698366589435914}}
