@@ -71,7 +71,7 @@ Status                  : Open
 
 {{/* Time validity */}}
 {{ if $errorMsgs }}
-		{{ with reFindAllSubmatches `(\d+) ?(\w+)` $auction.Get "time period" }}
+		{{ with reFindAllSubmatches `(\d+) ?(\w+)` ($auction.Get "time period")d }}
 				{{ $duration := index . 0 0 }}
 				{{ with toDuration $duration }}
 						{{ $auction.Set "time period" $duration }}

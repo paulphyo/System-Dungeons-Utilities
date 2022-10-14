@@ -110,7 +110,6 @@
     {{/* {{$is_Sunday = true}} */}}
     {{$is_Red := or $is_Sunday (in $gate "red") false}}
     {{$is_Custom := in $server "c-"}}
-    {{if $is_Custom}}{{$server = slice $server 2}}{{end}}
 
     {{/* Default */}}
     {{$gateEmoji := $gateEmojis.blue}}
@@ -131,7 +130,7 @@
     {{ $embed := cembed 
       "thumbnail" (sdict "url" $thumbnail)
       "color" ($colors.Get $server)
-      "author" (sdict "name" (print (title $server) " Server") "icon_url" ($avatar.Get $server))
+      "author" (sdict "name" (print (or (slice $server 2 | and $is_Custom) $server | title) " Server") "icon_url" ($avatar.Get $server))
       
       "title" (joinStr "\n" 
       (printf "> • <a:abell:823825677747748874> **%d %s left**" $mob (or (and (eq $mob 1) "mob") "mobs"))
